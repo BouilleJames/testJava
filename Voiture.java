@@ -7,9 +7,15 @@ public class Voiture { // classe = objet
     public String getmMarque() { // methode(qui est aussi un attribut de la classe) pour recuperer la marque
         return mMarque;
     }
+    public void setmMarque(String mMarque) {
+        this.mMarque = mMarque;
+    }
     private String mCouleur;
     public String getmCouleur() {
         return mCouleur;
+    }
+    public void setmCouleur(String mCouleur) {
+        this.mCouleur = mCouleur;
     }
     // public determine que la portée est globale , que l'attribut sera accessible à l'exterieur de la classe
     // private determine que la portee est locale , attribut accessible seulement à l'interieur de la classe

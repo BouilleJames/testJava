@@ -7,7 +7,7 @@ public class Cedric { // classe
         this.tel = tel;
     }
 
-    public String name;
+    public String name; // Déclaration de l'attribut de la classe avec le type et son nom avec la contrainte défini à public 
     public String getName() {
         return name;
     }

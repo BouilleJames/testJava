@@ -6,6 +6,11 @@ public class App {
         Abonnement a = new Abonnement("Netflix");
         Abonnement b = new Abonnement("Amazon");
         Voiture g = new Voiture("Renault", "Grise");
+        Chien r = new Chien("Rocky");
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println("la marque est : " + g.getmMarque() + " de couleur : " + g.getmCouleur());
+        System.out.println("le chien se nomme : " + r.getmName());
         /*Chat c = new Chat("Tom", 1, true, "Miaou"); // instance de la classe Chat
         c.setmVaccin(false);
         name(c); // UN APPEL à une fonction ou methode

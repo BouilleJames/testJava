@@ -1,5 +1,3 @@
-import javax.management.ValueExp;
-
 public class Chat {
     /*
      * accesseurs : getter, setter;
