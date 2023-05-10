@@ -1,9 +1,5 @@
 public class Abonnement {
-    public Abonnement(String name) {
-        this.mName = name;
-    }
-    public String name;
-}
+    public Abonnement(String name, int time, int price) {
         if(mLicence > 0) {
             this.mPrice = price;
             this.mTime = time;
@@ -14,6 +10,10 @@ public class Abonnement {
         System.out.println("Vous n'avez pas de licence");
         }
     }
+    public String name;
+
+        
+    
     private String mName;
     public String getName(){
         return mName;
